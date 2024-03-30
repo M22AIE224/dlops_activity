@@ -38,6 +38,7 @@ def analyze_data(data):
         plt.show()
 
 def main():
+    print("Starting the Data Processing")
     file_path = input("Enter the path to the CSV file: ")
     data = load_data(file_path)
     analyze_data(data)
